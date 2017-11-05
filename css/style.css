@@ -22,7 +22,7 @@ a.bg-blue:focus, a.bg-primary:hover {
 .body-page {
     background-color: #eeeeee;
     border-radius: 3px;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
     margin-bottom: 10px;
 }
 .botoes-form {
@@ -34,4 +34,20 @@ a.bg-blue:focus, a.bg-primary:hover {
 }
 .form-busca{
     margin-left: 135px;
+}
+.anuncio{
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.anuncio p{
+    text-align: justify;
+}
+.list-group .filtro{
+    color: #495057;
+}
+.list-group .filtro:hover{
+    color: #0b0c0e;
+    text-decoration: none;
 }
