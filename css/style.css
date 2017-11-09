@@ -51,3 +51,10 @@ a.bg-blue:focus, a.bg-primary:hover {
     color: #0b0c0e;
     text-decoration: none;
 }
+.avaliacao-projeto i{
+    color: #e0d502;
+}
+.badge {
+    padding: 10px 15px 10px 15px !important;
+    height: 20px;
+}
