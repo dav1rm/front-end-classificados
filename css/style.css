@@ -14,7 +14,7 @@ a.bg-blue:focus, a.bg-primary:hover {
 .title-page h1 {
     text-align: center;
     font-weight: bolder;
-    margin: 0;
+    margin-left: 40%;
 }
 .title-page{
     margin-top: 65px;
@@ -31,9 +31,6 @@ a.bg-blue:focus, a.bg-primary:hover {
 }
 .botoes-form .btn {
     margin-left: 5px;
-}
-.form-busca{
-    margin-left: 135px;
 }
 .anuncio{
     border-radius: 3px;
@@ -56,5 +53,9 @@ a.bg-blue:focus, a.bg-primary:hover {
 }
 .badge {
     padding: 10px 15px 10px 15px !important;
-    height: 20px;
+    height: 80%;
+}
+.card {
+    margin-bottom: 10px;
+    width: 100%;
 }
