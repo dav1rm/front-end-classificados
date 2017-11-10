@@ -59,3 +59,34 @@ a.bg-blue:focus, a.bg-primary:hover {
     margin-bottom: 10px;
     width: 100%;
 }
+.informacoes{
+    margin: 20px 0 20px 0;
+}
+.informacoes div p{
+    margin: 5px;
+}
+.fundo-conversa{
+    background: #dddddd;
+    padding: 10px;
+}
+.mensagem{
+    margin-bottom: 5px;
+    width: 90%;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.enviada{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.recebida{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.mensagem p{
+    margin: 0;
+}
