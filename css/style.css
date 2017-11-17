@@ -80,6 +80,9 @@ a.bg-blue:focus, a.bg-primary:hover {
 }
 .enviada{
     margin-left: 10%;
+    background-color: #c1f0c1;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .recebida{
     margin-right: 10%;
