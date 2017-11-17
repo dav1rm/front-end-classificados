@@ -102,3 +102,40 @@ a.bg-blue:focus, a.bg-primary:hover {
     flex: 1 1 auto;
     padding: 10px 15px 10px 15px;
 }
+.card-user{
+    flex: 1 1 auto;
+    padding: 10px 15px 10px 15px;
+}
+.card-projeto{
+    flex: 1 1 auto;
+    padding: 10px 15px 10px 15px;
+}
+.image-user{
+    border-radius: 35px;
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+}
+.info-user{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.name-user{
+    margin: 0;
+}
+.descricao-projeto{
+    margin-bottom: 10px;
+}
+.estrelas{
+    font-size: 25px;
+}
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
