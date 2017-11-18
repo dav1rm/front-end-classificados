@@ -151,6 +151,11 @@ button.btn.btn-default:hover {
   color: white;
   background-color: #007bff;
 }
+.btn-primary {
+  color: #007bff;
+  background-color: white;
+  border-color: #007bff;
+}
 .btn-primary:hover {
   background-color: #132e6b;
   border-color: #132e6b;
