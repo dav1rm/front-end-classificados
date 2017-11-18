@@ -144,7 +144,8 @@ a.bg-blue:focus, a.bg-primary:hover {
 }
 button.btn.btn-default,
 .badge-info,
-.btn-info {
+.btn-info,
+.btn-danger {
   border: 1px solid #007bff;
   color: #007bff;
   background-color: white;
@@ -160,6 +161,6 @@ button.btn.btn-default:hover,
   border-color: #007bff;
 }
 .btn-primary:hover {
-  background-color: #132e6b;
-  border-color: #132e6b;
+  background-color: #132e6b !important;
+  border-color: #132e6b !important;
 }
