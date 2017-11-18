@@ -142,3 +142,12 @@ a.bg-blue:focus, a.bg-primary:hover {
 .estrelas input[type=radio]:checked ~ label i.fa:before {
   color: #CCC;
 }
+button.btn.btn-default {
+  border: 1px solid #007bff;
+  color: #007bff;
+  margin-right: 110px;
+}
+button.btn.btn-default:hover {
+  color: white;
+  background-color: #007bff;
+}
