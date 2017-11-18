@@ -155,12 +155,14 @@ button.btn.btn-default:hover,
   color: white !important;
   background-color: #007bff !important;
 }
-.btn-primary {
+.btn-primary,
+.btn-success{
   color: #007bff !important;
   background-color: white !important;
   border-color: #007bff !important;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-success:hover {
   background-color: #132e6b !important;
   border-color: #132e6b !important;
 }
