@@ -145,8 +145,13 @@ a.bg-blue:focus, a.bg-primary:hover {
 button.btn.btn-default {
   border: 1px solid #007bff;
   color: #007bff;
+  background-color: white;
 }
 button.btn.btn-default:hover {
   color: white;
   background-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0914a7;
+  border-color: #0914a7;
 }
