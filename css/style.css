@@ -169,5 +169,12 @@ button.btn.btn-default:hover,
   color: white !important;
 }
 .btn-outline-success {
-  border: none;
+  border: none !important;
+}
+.btn-outline-success:hover {
+    background: none;
+    border: none;
+}
+.navbar-dark .navbar-nav .btn {
+  color: #007bff !important;
 }
