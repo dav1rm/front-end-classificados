@@ -199,3 +199,6 @@ span.input-group-btn {
 .justify-content-center {
   justify-content: space-around !important;
 }
+.title-page h2 {
+  margin: 0 auto;
+}
