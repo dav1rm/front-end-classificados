@@ -172,12 +172,12 @@ button.btn.btn-default:hover,
   border: none !important;
 }
 .btn-outline-success:hover {
-    background: none;
-    border: none;
+    background: none !important;
+    border: none !important;
 }
 .navbar-dark .navbar-nav .btn {
   color: rgba(255,255,255,.5) !important;
 }
-.navbar-dark .navbar-nav .btn {
+.navbar-dark .navbar-nav .btn:hover {
   color: rgba(255,255,255,.75) !important;
 }
