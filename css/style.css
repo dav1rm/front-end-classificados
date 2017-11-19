@@ -183,7 +183,9 @@ button.btn.btn-default:hover,
 }
 .btn-outline-success:not([disabled]):not(.disabled).active,
 .btn-outline-success:not([disabled]):not(.disabled):active,
-.show>.btn-outline-success.dropdown-toggle {
-  background-color: inherit;
+.show>.btn-outline-success.dropdown-toggle,
+.btn-outline-success.focus,
+.btn-outline-success:focus {
+  background-color: inherit !important;
   border: none !important;
 }
