@@ -188,4 +188,5 @@ button.btn.btn-default:hover,
 .btn-outline-success:focus {
   background-color: inherit !important;
   border: none !important;
+  box-shadow: none !important;
 }
