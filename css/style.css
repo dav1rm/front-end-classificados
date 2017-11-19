@@ -176,5 +176,8 @@ button.btn.btn-default:hover,
     border: none;
 }
 .navbar-dark .navbar-nav .btn {
-  color: #007bff !important;
+  color: rgba(255,255,255,.5) !important;
+}
+.navbar-dark .navbar-nav .btn {
+  color: rgba(255,255,255,.75) !important;
 }
