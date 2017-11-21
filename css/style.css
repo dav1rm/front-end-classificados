@@ -213,29 +213,40 @@ a.dropdown-item:hover {
 .intro-texto {
   margin-top: 150px;
   text-align: center;
+  background-image: url('img/testecapa3.jpg');
 }
 .intro-botoes {
-
+  text-align: center;
 }
-
+.btn-custom {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+.btn-custom:hover {
+  box-shadow: 10px 10px 15px -4px rgba(0,0,0,0.75);
+}
 .btn-roxo {
 	background: #7c25f8;
 	color: white;
 }
-
 .btn-roxo:active {
-	transform: scale(0.95);
+	transform: scale(0.98);
+  border: none;
 }
-
 .btn-roxo:hover {
 	color: white;
 }
-
 .btn-amarelo {
 	background: rgb(247, 229, 61);
 	color: black;
 }
-
+.btn-amarelo:hover {
+  color: black;
+}
 .btn-amarelo:active {
-	transform: scale(0.95);
+	transform: scale(0.98);
+  border: none;
+}
+h2.cadastro {
+  margin-left: 0;
 }
