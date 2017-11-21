@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Meu Perfil</title>
+    <title>Caixa de Mensagem</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +10,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
@@ -55,7 +56,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="conversas-comum.html">
+                        <a class="nav-link" href="#">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </li>
@@ -65,7 +66,7 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Davi Rodrigues</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown07">
                             <a class="dropdown-item" href="meu-perfil-comum.html">Meu perfil</a>
@@ -80,71 +81,51 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="title-page d-flex justify-content-between">
-                    <h2>Meu Perfil</h2>
-                    <form class="form-inline form-busca">
-                        <a class="btn btn-sm btn-primary" href="meu-perfil-editar-comum.html">
-                            <i class="fa fa-pencil" aria-hidden="true"></i> Editar
-                        </a>
-                    </form>
+                    <div class="col-md-9">
+                        <h2>Caixa de Mensagem</h2>
+                    </div>
+                    <div class="col-md-2 d-inline-flex p-2">
+                        <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-sm btn-primary" type="submit">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
                 </div>
                 <hr>
             </div>
         </div>
-        <div class="row row d-flex justify-content-center">
-            <div class="col-md-10">
-                <div class="body-page">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <img src="https://www.menon.no/wp-content/uploads/person-placeholder.jpg" width="200" class="img-thumbnail" alt="" />
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="conversa">
+                        <div class="row">
+                            <div class="col-md-9 d-flex justify-content-start">
+                                <h5 class="card-title">
+                                    <i class="fa fa-comments" aria-hidden="true"></i> Site para loja de roupas</h5>
+                            </div>
+                            <div class="col-md-3 d-flex justify-content-end">
+                                <a href="chat.html" class="btn btn-sm btn-primary">Abrir conversa</a>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <h4>Davi Rodrigues</h4>
-                            <small>
-                                <cite title="23893-770, Jorge Alves de Souza, 502, São Miguel, Seropédica, RJ">23893-770, Jorge Alves de Souza, São Miguel, Seropédica, RJ
-                                    <i class="fa fa-map-marker">
-                                    </i>
-                                </cite>
-                            </small>
-                            <p>
-                                <i class="fa fa-envelope"></i> davi@example.com
-                                <br />
-                                <i class="fa fa-mobile"></i> 84 99988-7766
-                                <br />
-                                <i class="fa fa-address-card"></i> 193.168.413-85
-                                <br />
-                                <i class="fa fa-venus"></i> Masculino
-                                <br />
-                                <i class="fa fa-gift"></i> 31/12/1988
-                            </p>
-                        </div>
+                        <h6 class="card-subtitle text-muted">Desenvolvedor: Fulano</h6>
                     </div>
-                    <div class="row d-flex justify-content-center informacoes">
-                        <div class="col-md-11">
-                            <p>
-                                <b>Formação:</b> Bacharelado em Tecncnologia da informação
-                            </p>
-                            <p>
-                                <b>Currículo lattes:</b>
-                                <a href="http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar">http://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar</a>
-                            </p>
-                            <p>
-                                <b>Competências:</b>
-                                <span class="badge badge-info">Sites</span>
-                                <span class="badge badge-info">Jogos</span>
-                            </p>
-                            <p class="text-justify">
-                                <b>Experiência:</b> Lorem ipsum dolor sit amet, mei exerci incorrupte no. Doming noster voluptatibus
-                                qui eu. Nam ne debet civibus, elit harum dissentiet ius te, te error vulputate conceptam
-                                per. Putent eripuit fabellas vix ad. Cu rebum munere tritani has, etiam delicatissimi ius
-                                eu, summo mandamus vim no. Adhuc soluta id sed, ne suavitate scripserit nec.
-                            </p>
-
+                </div>
+                <div class="card">
+                    <div class="conversa">
+                        <div class="row">
+                            <div class="col-md-9 d-flex justify-content-start">
+                                <h5 class="card-title">
+                                    <i class="fa fa-comments" aria-hidden="true"></i> Aplicativo para pizzaria</h5>
+                            </div>
+                            <div class="col-md-3 d-flex justify-content-end">
+                                <a href="chat.html" class="btn btn-sm btn-primary">Abrir conversa</a>
+                            </div>
                         </div>
+                        <h6 class="card-subtitle text-muted">Desenvolvedor: Beltrano</h6>
                     </div>
                 </div>
             </div>
         </div>
-        <hr>
     </div>
 
     <footer class="container">
