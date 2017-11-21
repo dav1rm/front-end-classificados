@@ -210,3 +210,32 @@ a.dropdown-item:hover {
   opacity: 1 !important;
   background-color: white !important;
 }
+.intro-texto {
+  margin-top: 150px;
+  text-align: center;
+}
+.intro-botoes {
+
+}
+
+.btn-roxo {
+	background: #7c25f8;
+	color: white;
+}
+
+.btn-roxo:active {
+	transform: scale(0.95);
+}
+
+.btn-roxo:hover {
+	color: white;
+}
+
+.btn-amarelo {
+	background: rgb(247, 229, 61);
+	color: black;
+}
+
+.btn-amarelo:active {
+	transform: scale(0.95);
+}
