@@ -199,3 +199,6 @@ span.input-group-btn {
 .navbar-dark .navbar-nav .nav-link {
   color: white !important;
 }
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: gray !important;
+}
