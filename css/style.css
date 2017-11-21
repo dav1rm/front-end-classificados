@@ -196,3 +196,6 @@ span.input-group-btn {
 .input-group {
   top: 5px;
 }
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
