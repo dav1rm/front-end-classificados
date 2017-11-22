@@ -145,28 +145,30 @@ a.bg-blue:focus, a.bg-primary:hover {
 .btn-default,
 .btn-info,
 .btn-danger {
-  border: 1px solid #007bff !important;
-  color: #007bff !important;
-  background-color: white !important;
-}
-.btn-default:hover,
-.btn-danger:hover {
   color: white !important;
   background-color: #007bff !important;
 }
-.btn-primary,
-.btn-success{
+.btn-default:hover,
+.btn-danger:hover {
+  order: 1px solid #007bff !important;
   color: #007bff !important;
   background-color: white !important;
-  border-color: #007bff !important;
+}
+.btn-primary,
+.btn-success{
+
+    background-color: #132e6b !important;
+    border-color: #132e6b !important;
+    color: white !important;
 }
 .btn-primary:hover,
 .btn-success:hover,
 .btn-info:hover,
 .badge-info {
-  background-color: #132e6b !important;
-  border-color: #132e6b !important;
-  color: white !important;
+
+color: #007bff !important;
+background-color: white !important;
+border-color: #007bff !important;
 }
 .btn-outline-success {
   border: none !important;
