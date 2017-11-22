@@ -150,13 +150,12 @@ a.bg-blue:focus, a.bg-primary:hover {
 }
 .btn-default:hover,
 .btn-danger:hover {
-  order: 1px solid #007bff !important;
+  border: 1px solid #007bff !important;
   color: #007bff !important;
   background-color: white !important;
 }
 .btn-primary,
 .btn-success{
-
     background-color: #132e6b !important;
     border-color: #132e6b !important;
     color: white !important;
@@ -165,10 +164,9 @@ a.bg-blue:focus, a.bg-primary:hover {
 .btn-success:hover,
 .btn-info:hover,
 .badge-info {
-
-color: #007bff !important;
-background-color: white !important;
-border-color: #007bff !important;
+  color: #007bff !important;
+  background-color: white !important;
+  border-color: #007bff !important;
 }
 .btn-outline-success {
   border: none !important;
